@@ -1,0 +1,44 @@
+body {
+    background-color: antiquewhite;
+    margin: 0px;
+}
+
+.container {
+    display: flex;
+    margin: 10px;
+    background-color:  #ccc;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    width: 960px; 
+    height: 960px;
+    gap: 10px;
+
+
+}
+
+.cell {
+    aspect-ratio: 1 / 1; 
+    border: 1px solid #ccc; 
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    background-color: rgb(102, 131, 212);
+
+}
+
+.button {
+    display: flex;
+    align-items: start;
+    margin: 10px;
+    padding: 10px;
+    background-color:  rgb(232, 159, 184);
+    justify-content: stretch;
+    width: 180px; 
+    height: 60px;
+    border: none;
+
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    justify-content: center; 
+}
